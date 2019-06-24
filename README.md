@@ -20,6 +20,10 @@ This script can be used to estimate relative abundance of recovered MAGs.
 Required options:
 
 -f   : folder containing all MAGs
+
 -m   : Mapping matrix eported from CLC or other mapping tools, which summarize the ID of contig/scaffold,mapped reads of given   contig/scaffold, and length of this contig/scaffold. Example mapping matrix can be found in the folder of 'example-data'.
+
 -c   : which column (number) contains the mapped reads number.
+
 -l   : which column (number) contains the contigs/scaffolds length.
+
