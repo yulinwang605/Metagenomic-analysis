@@ -5,8 +5,6 @@
    
    Usage:
    $ python MAGs-coverage-based-relabu.py -f ./MAGs -m s1-mapping-all-bins.txt -c 3 -l 8
-   
-   for help:
    $ python MAGs-coverage-based-relabu.py -h
    This script can be used to estimate relative abundance of recovered MAGs.
    -h,  : Print help
