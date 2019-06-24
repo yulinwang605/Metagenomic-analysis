@@ -70,10 +70,10 @@ if os.path.exists("mapping-results-of-MAGs"):
 else:
     os.mkdir("mapping-results-of-MAGs")
 
-output1 = open("bins-recruited-reads.txt","w") # file summarized all MAGs' average coverage
-output2 = open("rel-abu-based-mapped-reads-count.txt","w") #file summarized all MAGs' relative abundance (COVmag1/(COVmag1+...+COVmagn))
-output1.write("Bin-id"+"\t"+"average-coverage"+"\t"+"Bin-size (bp)"+"\n")
-output2.write("Bin-id"+"\t"+"Relative-abun (vs. all sequenced reads)"+"\t"+"Relative-abun (vs. all reads mapped on assembled contigs"+"\n")
+output1 = open("bins-recruited-reads.txt","w") # file summarized reads number recruited by MAGs
+output2 = open("rel-abu-based-mapped-reads-count.txt","w") #file summarized all MAGs' relative abundance
+output1.write("Bin-id"+"\t"+"Mapped-reads"+"\t"+"\n")
+output2.write("Bin-id"+"\t"+"Relative-abun (vs. all sequenced reads)"+"\t"+"Relative-abun (vs. all reads mapped on assembled contigs)"+"\n")
 
 connections ={} #store the gene-ids and mapping results
 
