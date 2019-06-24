@@ -1,5 +1,6 @@
 # Metagenomic-analysis
 #Scripts that can be used to estimate the relative abundance of the recovered MAGs:
+
 `1. MAGs-coverage-based-relabu.py`
   This script will calculate the average coverage of different MAGs, then use the coverage to calculate the relative abundance. This script can be used if your recovered MAGs have represented the mojor proportion of the microbial community, e.g., recruited more than   70% of all the total reads.
 
