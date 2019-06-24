@@ -3,7 +3,7 @@
 
 `1. MAGs-coverage-based-relabu.py`
 
-This script will calculate the average coverage of different MAGs, then use the coverage to calculate the relative abundance. This script can be used if your recovered MAGs have represented the mojor proportion of the microbial community, e.g., recruited more than   70% of all the total reads.
+This script will calculate the average coverage of different MAGs, then use the coverage to calculate the relative abundance. This script can be used if your recovered MAGs have represented the major proportion of the microbial community, e.g., recruited more than 70% of all the total reads. I do not recommend you to use this script to get the relative abundance if your MAGs only recruited small part of the sequenced reads.
 
 Example:
 
@@ -21,7 +21,7 @@ Required options:
 
 -f   : folder containing all MAGs
 
--m   : Mapping matrix eported from CLC or other mapping tools, which summarize the ID of contig/scaffold,mapped reads of given   contig/scaffold, and length of this contig/scaffold. Example mapping matrix can be found in the folder of 'example-data'.
+-m   : Mapping matrix exported from CLC or other mapping tools, which summarize the ID of contig/scaffold, mapped reads of given   contig/scaffold, and length of this contig/scaffold. Example mapping matrix can be found in the folder of 'example-data'.
 
 -c   : which column (number) contains the mapped reads number.
 
