@@ -13,11 +13,11 @@ Get help:
 
 	$ python MAGs-coverage-based-relabu.py -h
 	
-This script can be used to estimate relative abundance of recovered MAGs.
+    This script can be used to estimate relative abundance of recovered MAGs.
 
--h,  : Print help
+    -h,  : Print help
 
-Required options:
+    Required options:
 
 -f   : folder containing all MAGs
 
