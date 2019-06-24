@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 ###############################################################################
 #    This script can be used to calculate the relative abundance of the       #
 #    newly recovered MAGs.                                                    #
