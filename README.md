@@ -2,9 +2,11 @@
 #Scripts that can be used to estimate the relative abundance of the recovered MAGs:
 
 `1. MAGs-coverage-based-relabu.py`
-  This script will calculate the average coverage of different MAGs, then use the coverage to calculate the relative abundance. This script can be used if your recovered MAGs have represented the mojor proportion of the microbial community, e.g., recruited more than   70% of all the total reads.
 
-  $ python MAGs-coverage-based-relabu.py -f ./MAGs -m s1-mapping-all-bins.txt -c 3 -l 8
+    This script will calculate the average coverage of different MAGs, then use the coverage to calculate the relative abundance. This script can be used if your recovered MAGs have represented the mojor proportion of the microbial community, e.g., recruited more than   70% of all the total reads.
+
+Example
+$ python MAGs-coverage-based-relabu.py -f ./MAGs -m s1-mapping-all-bins.txt -c 3 -l 8
 
 $ python MAGs-coverage-based-relabu.py -h
 This script can be used to estimate relative abundance of recovered MAGs.
