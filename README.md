@@ -19,11 +19,11 @@ Get help:
 
     Required options:
 
--f   : folder containing all MAGs
+    -f   : folder containing all MAGs
 
--m   : Mapping matrix exported from CLC or other mapping tools, which summarize the ID of contig/scaffold, mapped reads of given   contig/scaffold, and length of this contig/scaffold. Example mapping matrix can be found in the folder of 'example-data'.
+    -m   : Mapping matrix exported from CLC or other mapping tools, which summarize the ID of contig/scaffold, mapped reads of given   contig/scaffold, and length of this contig/scaffold. Example mapping matrix can be found in the folder of 'example-data'.
 
--c   : which column (number) contains the mapped reads number.
+    -c   : which column (number) contains the mapped reads number.
 
--l   : which column (number) contains the contigs/scaffolds length.
+    -l   : which column (number) contains the contigs/scaffolds length.
 
